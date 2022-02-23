@@ -1,0 +1,34 @@
+.root {
+    -fx-font-size: 11pt;
+    -fx-font-family: 'Tahoma';
+}
+
+.label {
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-font-weight: bold;
+}
+.rectangle {
+    -fx-stroke: grey;
+    -fx-stroke-width: 3;
+}
+
+#button-panel {
+-fx-padding: 10 20  10  20;
+-fx-spacing: 10;
+-fx-alignment: center;
+}
+
+#frame-slider {
+-fx-major-tick-unit: 0.5;
+-fx-show-tick-labels: true;
+}
+#initial-pane {
+-fx-padding: 10 20  10  20;
+-fx-spacing: 10;
+-fx-vgap: 10;
+-fx-hgap: 10;
+-fx-alignment: center;
+}
